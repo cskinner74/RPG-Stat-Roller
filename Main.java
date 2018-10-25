@@ -77,7 +77,7 @@ public class Main {
 	}
 	
 	public static int getRoll() {
-		// Rolls 4 times, then returns the sum of the highest 3 rolls in keeping with traditional RPG rules
+		// Rolls 4 times, then returns the sum of the highest 3 rolls in keeping with D&D rules
 		int[] rolls = new int[4];
 		for (int i = 0; i < 4; i++) {
 			rolls[i]=getRandInt();
