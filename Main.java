@@ -22,7 +22,12 @@ public class Main {
 		}
 		
 		// Assignment code
-		System.out.println("\nAssign the rolls to stats (NOTE: enter roll number, not value): ");
+		System.out.println("\nAssign the rolls to stats (NOTE: enter roll number, not value) ");
+		System.out.print("Available stats: ");
+		for (int i = 0; i < 6; i++) {
+			System.out.print(statTitles[i]+" ");
+		}
+		System.out.println(" ");
 		Scanner s = new Scanner(System.in);
 		int ans;
 		for (int i = 0; i < 6; i++) {
